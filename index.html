@@ -39,15 +39,16 @@
                     </li>
                 </ul>
 
-                <!-- Hamburger Menu Button -->
-                <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <!-- Hamburger Menu Button (CSS-only) -->
+                <input type="checkbox" class="nav__hamburger-checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="nav__hamburger" aria-label="Toggle navigation menu">
                     <span class="nav__hamburger-line"></span>
                     <span class="nav__hamburger-line"></span>
                     <span class="nav__hamburger-line"></span>
-                </button>
+                </label>
 
                 <!-- Mobile Menu -->
-                <div class="nav__mobile" id="mobile-menu">
+                <div class="nav__mobile">
                     <ul class="nav__list nav__list--mobile">
                         <li class="nav__item">
                             <a href="#about" class="nav__link nav__link--mobile">About</a>
@@ -368,7 +369,7 @@
                     <p>&copy; 2024 Richard Rodriguez. All rights reserved.</p>
                 </div>
                 <div class="footer__back-to-top">
-                    <a href="#" class="back-to-top" id="back-to-top">
+                    <a href="#" class="back-to-top">
                         <span class="back-to-top__text">Back to Top</span>
                         <span class="back-to-top__icon">⬆️</span>
                     </a>
@@ -377,6 +378,5 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
